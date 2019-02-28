@@ -1,0 +1,52 @@
+{
+  "name": "skore-budy-nodejs",
+  "version": "1.0.0",
+  "description": "Chatbot for http://hiring.skore.io/",
+  "main": "server.js",
+  "engines": {
+    "node": "10.15.0",
+    "npm": "6.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "./node_modules/.bin/nodemon server.js"
+  },
+  "keywords": [
+    "NodeJs",
+    "Chatbot",
+    "DialogFlow"
+  ],
+  "private": true,
+  "author": "Renato Neto <rnato.netoo@gmail.com> (https://github.com/zRnatoNeto)",
+  "homepage": "https://github.com/ReloadX/reload-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReloadX/reload-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ReloadX/reload-api/issues"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "lodash": "^4.17.11",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-mocha": "^5.3.0",
+    "mocha": "^6.0.0",
+    "mocha-eslint": "^5.0.0",
+    "nodemon": "^1.18.10"
+  }
+}
